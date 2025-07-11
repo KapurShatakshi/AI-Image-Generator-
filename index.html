@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Text-to-Image Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🖼️ AI Text-to-Image Generator</h1>
+  <form id="promptForm">
+    <input type="text" id="promptInput" placeholder="Describe an image..." required />
+    <select id="countSelect">
+      <option value="1">1 image</option>
+      <option value="2">2 images</option>
+      <option value="3">3 images</option>
+      <option value="4">4 images</option>
+    </select>
+    <button type="submit">Generate</button>
+  </form>
+  <div id="gallery"></div>
+  <script src="script.js"></script>
+</body>
+</html>

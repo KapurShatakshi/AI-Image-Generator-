@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+#promptForm {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#promptInput {
+  flex: 1;
+  padding: .6rem;
+}
+button {
+  padding: .6rem 1rem;
+  cursor: pointer;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+#gallery img {
+  width: 100%;
+  border-radius: .75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
