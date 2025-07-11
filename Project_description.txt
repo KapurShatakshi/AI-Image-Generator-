@@ -1,0 +1,11 @@
+AI Text-to-Image Generator
+
+This project is a full-stack web application that allows users to generate images from natural language prompts using advanced generative AI models like OpenAI's DALL·E or Stable Diffusion. It integrates Natural Language Processing (NLP) and Computer Vision to convert user prompts into high-quality visual outputs.
+
+Tech Stack:
+- Backend: FastAPI, Python, OpenAI API or Diffusers (for local SD)
+- Frontend: HTML, CSS, JavaScript
+- Optional: Hugging Face Diffusers for local image generation (GPU recommended)
+
+Use Case:
+Ideal for AI demos, creativity tools, or prompt-based content generation.
