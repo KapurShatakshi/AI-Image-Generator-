@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+python-dotenv>=1.0
+pydantic>=2.7
+openai>=1.30
+diffusers[torch]==0.27.2
+transformers>=4.43
+torch>=2.3
+spacy==3.7
